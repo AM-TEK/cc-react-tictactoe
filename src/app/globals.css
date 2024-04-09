@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    margin: 10px;
+}
+
 .square {
     background-color: #fff;
     border: 1px solid #998;
@@ -14,4 +18,8 @@
     margin-top: -1px;
     text-align: center;
     width: 34px;
+}
+
+.board-row {
+    display: flex;
 }

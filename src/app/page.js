@@ -30,6 +30,7 @@ function Board({squares, xIsNext, onPlay}) {
 
   return (
     <>
+    <h1>Testing Auto Deployment</h1>
       {winner ? (
         <p>Winner is: {winner}</p>
       ) : (
